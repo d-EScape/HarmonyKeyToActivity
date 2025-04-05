@@ -8,7 +8,7 @@ from aioharmony.harmonyapi import HarmonyAPI, SendCommandDevice
 
 HUB_IP = '192.168.19.223'
 
-#Constants like these are not required, but can be helpful when a devicename changes and
+#Constants like these are not required, but can be helpful when a devicename changes and 
 #to keep the configuration readable. Adapt to your setup and expand to your liking.
 DEFAULT_TV = "KPN iTV+ tivo"
 DEFAULT_VOLUME = "Denon X4500h"
@@ -20,8 +20,8 @@ DEFAULT_KEY_PAUSE = "Pause"
 DEFAULT_KEY_STOP = "Stop"
 DEFAULT_KEY_MUTE = "Mute"
 
-#Configure the keypress and device te respond for the activity
-#[activity name][lowercase button name] >> device te respond and key to be pressed (case sensitive!)
+#Configure the correct keypresses for any activity
+#[activity name][lowercase button name] contains [device] to respond and (case sensitive!) key to [press] 
 keyByActivity={
    "Apple TV kijken" : {
    						'play': { 
