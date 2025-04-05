@@ -12,6 +12,10 @@ Harmony google assistant integration offers, since i can no longer get the offic
 The running of this script and voice control are -in my case- handled by Domoticz (virtual switches) and DZGA.
 
 The script needs te be configured for your setup. The configurartion section is insde the script and mostly self explaining.
+To get started:
+1. change the HUP_IP
+2. Modify the "keyByActivity" dict to your setup (the use of constants is optional)
+3. run from the command line like ./harmony_key_to_active.py Mute (the button name on the command line is case-insensitive)
 
 Requires aioharmony and asyncio python modules.
 
